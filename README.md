@@ -6,6 +6,3 @@ the basic concepts of this programming language.
 I create the projects using PyCharm 2025.1.3
 
 Python version I use is 3.13.5
-
-## Content
-In every folder you will find a different project to practice or just learn
