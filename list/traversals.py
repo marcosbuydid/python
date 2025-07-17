@@ -6,3 +6,9 @@ for x in l:
 l1 = [23, 46, 78, 97]
 for x in range(len(l1)):
     print(l1[x], end=" ")
+
+# using while
+i = 0
+while i < len(l1):
+    print(l1[i], end=" ")
+    i += 1
