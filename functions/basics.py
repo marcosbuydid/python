@@ -100,3 +100,20 @@ def custom_func_3(*args, a, b):
 
 
 custom_func_3(100, a=40, b=50)
+
+
+# variable length keyword arguments
+# ** and kwargs are used on function call
+# dictionary is created for keywords arguments
+def custom_func_4(**kwargs):
+    print(kwargs)
+
+
+custom_func_4(a=16, b=4, c=8)  # {'a': 16, 'b': 4, 'c': 8}
+
+# a or b can be positional or keyword arguments
+def custom_func_5(a, b, **kwargs):
+    print(a, b, kwargs)
+
+
+custom_func_5(a=160, b=40, c=38)  # 160 40 {'c': 38}
